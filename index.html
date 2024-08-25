@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
+</head>
+<body>
+    <!-- PreLoader -->
+    <div id="preloader"></div>
+
+    <!-- After Preloader -->
+    <section id="top-banner">
+    <div class="top-banner">
+        <div class="top-banner-left">
+            <div class="top-banner-no">
+                <a href="tel:+917838913530">
+                    <p>7838913530</p>
+                </a>
+            </div>
+            <div class="top-banner-email">
+                <a href="mailto:kadhyananddeepak@gmail.com">
+                    <p>Kadhyananddeepak@gmail.com</p>
+                </a>
+            </div>
+        </div>
+            <div class="top-banner-right">
+                <div class="top-banner-location">
+                    <p >Store Location</p>
+                </div>
+                <div class="top-banner-deal">
+                    <p>Daily Deal</p>
+                </div>
+                <div class="top-banner-account">
+                    <p>My Account</p>
+                </div>
+                <div class="top-banner-login">
+                    <p>Login</p>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-------Header-1------->
+    <section id="header-1">
+        <div class="header-container">
+            <div class="header-1-left">
+                <img src="./images/logo.jpg" alt="Logo">
+            </div>
+            <div class="header-1-searchbar">
+                <div class="dropdown" id="dropdown">
+                    <div class="selected-option">Option 1</div>
+                    <div class="options" id="options">
+                        <div class="option" data-value="option1">Option 1</div>
+                        <div class="option" data-value="option2">Option 2</div>
+                        <div class="option" data-value="option3">Option 3</div>
+                    </div>
+                </div>
+                <input type="text" id="search-input" class="search-input" placeholder="Search Products Here...">
+                <button class="search-button" type="button"></button>
+            </div>
+            <div class="header-1-right">
+                <img aria-hidden="true" alt="heart-icon" src="images/heart.svg" />
+                <img aria-hidden="true" alt="user-icon" src="./images/person.svg" />
+                <img aria-hidden="true" alt="cart-icon" src="./images/bag.svg" />
+              </div>
+        </div>
+    </section>
+    <section id="header-2">
+            <div class="header-2-container">
+                <div class="header-2-left">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="categories">Categories</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Service</a></li>
+                    <!-- Shop dropdown -->
+                    <li class="dropbtn">
+                        <a  href="javascript:void(0)">Shop</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+    </section>
+    <!-- Promo Section ---->
+    <section class="promo-section">
+        <div class="promo-text">
+            <h2>UP TO 50% OFF</h2>
+            <h1>Shirt For Man</h1>
+            <p>Maboriosam in a nesciung eget magnae dapibus disting tloctio in the find it pereri odiy maboriosm.</p>
+            <a href="#" class="shop-now-button">Shop Now!</a>
+        </div>
+        <div class="promo-image">
+            <img src="./images/shirt.webp" alt="Shirt For Man">
+        </div>
+    </section>
+    <!-- Mini-Banner -->
+     <section class="collections">
+        <!-- First Collection Card -->
+        <div class="collection-card" style="background-image: url('./images/mini-banner1.jpg');background-size:cover">
+            <div class="collection-text">
+                <h4>Man's Collections</h4>
+                <h2>Summer Travel Collection</h2>
+                <a href="#" class="discover-now">Discover Now</a>
+            </div>
+        </div>
+
+        <!-- Second Collection Card -->
+        <div class="collection-card" style="background-image: url('./images/mini-banner2.jpg');background-size:cover;">
+            <div class="collection-text">
+                <h4>Bag Collections</h4>
+                <h2>Awesome Bag 2020</h2>
+                <a href="#" class="discover-now">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Third Collection Card -->
+        <div class="collection-card" style="background-image: url('./images/mini-banner3.jpg');background-size:cover">
+            <div class="collection-text">
+                <h4>Flash Deals</h4>
+                <h2>Mid Season Up to 40% Off</h2>
+                <a href="#" class="discover-now">Discover Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Trending---Item-- -->
+    <section class="trending-item">
+        <div class="trending-item-name">
+            <h2>Trending Item</h2>
+        </div>
+        <div class="trending-items-list">
+         
+                <p>MAN</p>
+                <p>WOMAN</p>
+                <p>KIDS</p>
+                <p>ACCESSORIES</p>
+                <p>ESSENTIAL</p>
+                <p>PRICES</p>
+        </div>
+    </section>
+    <!-- TRENDING ITEM PRODUCTS -->
+    <section class="trending-products">
+        <div class="product-lists">
+            <div class="product-info">
+                <img src="./images/item1.jpg" alt="Women Hot Collection">
+                <h2>Awesome Collection</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                    <div class="product-action">
+                        <div class="icon-container">
+                        <div class="quick-shop-container">
+                            <div class="quick-shop-label">Quick Shop</div>
+                            <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                          </div>
+                          <div class="wishlist-container">
+                            <div class="wishlist-label">Wishlist</div>
+                            <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                          </div>
+                        
+                          <div class="compare-container">
+                            <div class="compare-label">Compare</div>
+                            <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item2.jpg" alt="Women Hot Collection">
+                <h2>Awesome Shoe Collection</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item3.jpg" alt="Women Hot Collection">
+                <h2>Awesome Bag Collection</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item4.jpg" alt="Women Hot Collection">
+                <h2>Women Pant Collection</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item5.jpg" alt="Women Hot Collection">
+                <h2>Awesome Bag Collection</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item6.jpg" alt="Women Hot Collection">
+                <h2>Awesome Cap for Women</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item7.jpg" alt="Women Hot Collection">
+                <h2>Polo Dress For Women</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="product-info">
+                <img src="./images/item8.jpg" alt="Women Hot Collection">
+                <h2>Black Sunglass For Women</h2>
+                <h1>$29.00</h1>
+                <div class="button-head">
+                    <div class="product-action-2">
+                        <a title="Add to cart" href="#">ADD TO CART</a>
+                    </div>
+                <div class="product-action">
+                    <div class="icon-container">
+                    <div class="quick-shop-container">
+                        <div class="quick-shop-label">Quick Shop</div>
+                        <a title="Quick View" href="#"><i class="fa fa-eye"></i></a>
+                      </div>
+                      <div class="wishlist-container">
+                        <div class="wishlist-label">Wishlist</div>
+                        <a title="Wishlist" href="#"><i class="fa fa-heart"></i></a>
+                      </div>
+                    
+                      <div class="compare-container">
+                        <div class="compare-label">Compare</div>
+                        <a title="Compare" href="#"><i class="fa fa-bar-chart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner-lower">
+        <div class="banner-container">
+            <div class="banner-info">
+                <div class="banner-heading">
+                    <strong>Lowest Prices</strong>
+                    <strong><br>Best Quality Shopping</br></strong>
+                </div>
+                <div class="banner-heading-2">
+                    <div class="banner-heading-info">
+                    <img src="./images/truck.svg">
+                    Free Delivery <span class="a">|</span>
+                </div>
+                <div class="banner-heading-info">
+                    <img src="./images/cash.svg">
+                    Cash On Delivery <span class="a">|</span>
+                </div>
+                <div class="banner-heading-info">
+                    <img src="./images/bag-x-fill.svg">
+                    Easy Returns
+            </div>
+        </div>
+        <div class="banner-button">
+            <button type="button">Shop Now And Get 20% off  </button>
+        </div>
+            </div>
+        <div class="banner-image">
+            <img src="./images/banner-lower.webp">
+        </div>
+        </div>
+    </section>
+    <div class="gallery-heading">
+        <p class="text-with-border"> On Sale</p>
+        <p class="text-with-border">Best Seller</p>
+        <p class="text-with-border">Top Viewed</p>
+    </div>
+    <section class="Shop">
+            <div class="shop-list">
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list1.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$59</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+           
+            
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list2.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$19</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list3.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$62</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list4.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$84</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list5.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$62</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list6.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$63</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list7.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$21</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list8.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$23</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+                <div class="shop-list-card">
+            <div class="shop-list-image">
+                <img src="./images/shop-list9.jpg">
+            </div>
+            <div class="shop-list-info">
+                <p>Licity jelly leg flat Sandals</p>
+                <button type="button">$69</button>
+                <div class="middle">
+                    <div class="text"><img src="./images/bag.svg"></div>
+                  </div>
+            </div>
+            <div class="text-1"><img src="./images/bag.svg"></div>
+
+        </div>
+        </div>
+    </section>
+    <div class="blog-heading">
+        <p class="text-with-border-1">From Our Blog</p>
+    </div>
+    <section class="blog">
+        <div class="blog-container">
+            <div class="blogs">
+                <img src="./images/blog1.jpg">
+                <p>22 July ,2020.Monday</p>
+                <h1>Sed adipiscing ornare.</h1>
+                <a href="#index.html">
+                    <span>Continue Reading</span>
+                </a>
+            </div>
+            <div class="blogs">
+                <img src="./images/blog2.jpg">
+                <p>22 July ,2020.Monday</p>
+                <h1>Man's Fashion Winter Sale</h1>
+                <a href="#index.html">
+                    <span>Continue Reading</span>
+                </a>
+            </div>
+            <div class="blogs">
+                <img src="./images/blog3.jpg">
+                <p>22 July ,2020.Monday</p>
+                <h1>Women Fashion Festive</h1>
+                <a href="#index.html">
+                    <span>Continue Reading</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURES -->
+    <section id="features">
+        <div class="features-container">
+            <img src="./images/rocket.svg">
+            <div class="feature-rocket">
+            <p>FREE SHIPPING</p>
+            <span class="features-styling">Order Above $100</span>
+        </div>
+        
+            <img src="./images/arrow-counterclockwise.svg">
+            <div class="feature-rocket">
+            <p>FREE RETURN</p>
+            <span class="features-styling">Within 30 days returns
+            </span>
+            </div>
+            <img src="./images/shield-lock.svg">
+            <div class="feature-rocket">
+            <p>SECURE PAYMENTS</p>
+            <span class="features-styling">100% secure payment
+            </span>
+        </div>
+            <img src="./images/bookmark-heart-fill.svg">
+            <div class="feature-rocket">
+            <p>BEST PRICE</p>
+            <span class="features-styling">Guaranteed price
+            </span>
+        </div>
+    </div>
+    </section>
+    <section id="newsletter">
+        <div class="newsletter-heading">
+            <p class="text-with-border-1">NEWSLETTER</p>
+            <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+        </div>
+        <div class="subscribe-container">
+            <input type="email" placeholder="Your email address" class="email-input">
+            <button class="subscribe-btn">SUBSCRIBE</button>
+          </div>
+    </section>
+        <!-- FOOTER -->
+        <section id="footer">
+            <div class="footer-container">
+                <div class="footer-1">
+                    <img src="./images/logo.jpg">
+                    <p class="wrap">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                    <p>Got Question? Call us 24/7</p>
+                    <a href="tel:+917838913530">7838913530</a>
+                </div>
+                <div class="footer-2">
+                    <h1>Information</h1>
+                    <ul>
+                        <li><a href="#index.html">About Us</a></li>
+                        <li><a href="#index.html">Delivery Information</a></li>
+                        <li><a href="#index.html">Privacy Policy</a></li>
+                        <li><a href="#index.html">Terms & Conditions</a></li>
+                        <li><a href="#index.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-2">
+                    <h1>Customer Service</h1>
+                    <ul>
+                        <li><a href="#index.html">Payments Method</a></li>
+                        <li><a href="#index.html">Money-back</a></li>
+                        <li><a href="#index.html">Return</a></li>
+                        <li><a href="#index.html">Shipping</a></li>
+                        <li><a href="#index.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-2">
+                    <h1>Get In Touch</h1>
+                    <p>Address: 123 Main Street, Anytown, USA 12345</p>
+                    <p><a href="tel:+917838913530">7838913530</a></p>
+                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                    <p>Hours of Operation: Monday - Friday 9:00am - 5:00pm EST</p>
+                </div>
+            </div>
+            <div class="footer-last">
+                <p>Copyright © 2024 Deepak Kadyan - All Rights Reserved.</p>
+            </div>
+        </section>
+    <script src="./script.js"></script>
+</body>
+</html>
